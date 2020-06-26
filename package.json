@@ -4,7 +4,9 @@
   "description": "API service that interact with a local IPFS node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && node build/index.js",
+    "compile": "rimraf build && tsc",
+    "watch-and-run": "ts-node-dev --respawn -- src/index.ts"
   },
   "keywords": [
     "ipfs",
