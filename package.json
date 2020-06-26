@@ -11,5 +11,22 @@
     "api"
   ],
   "author": "Enrico Zanardo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "ipfs": "^0.47.0",
+    "it-all": "^1.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.6",
+    "@types/express-fileupload": "^1.1.3",
+    "@types/node": "^14.0.14",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "typescript": "^3.9.5"
+  }
 }
